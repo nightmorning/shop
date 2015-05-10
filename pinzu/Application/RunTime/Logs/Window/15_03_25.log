@@ -1,0 +1,190 @@
+[ 2015-03-25T09:07:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.216013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.102006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.102006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\index.php 第 32 行.
+
+[ 2015-03-25T09:07:28+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-25T16:34:01+08:00 ] 127.0.0.1 /Test/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: user_id D:\ZendServer\Apache2\htdocs\Application\Window\Model\UserModel.class.php 第 139 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: pwd D:\ZendServer\Apache2\htdocs\Application\Window\Model\UserModel.class.php 第 141 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\index.php 第 32 行.
+
+[ 2015-03-25T16:34:01+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-25T16:34:46+08:00 ] 127.0.0.1 /Test?old_pwd=123456&pwd=adsd4566
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pwd D:\ZendServer\Apache2\htdocs\Application\Window\Model\UserModel.class.php 第 141 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\index.php 第 32 行.
+
+[ 2015-03-25T17:01:42+08:00 ] 127.0.0.1 /Test?old_pwd=123456sd&pwd=456789sd\
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: pwd D:\ZendServer\Apache2\htdocs\Application\Window\Model\UserModel.class.php 第 142 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\index.php 第 32 行.
+
+[ 2015-03-25T17:02:13+08:00 ] 127.0.0.1 /Test?old_pwd=123456sd&pwd=456789sd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pwd D:\ZendServer\Apache2\htdocs\Application\Window\Model\UserModel.class.php 第 142 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\index.php 第 32 行.
+
+[ 2015-03-25T17:02:17+08:00 ] 127.0.0.1 /Test?old_pwd=123456sd&pwd=456789sd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: pwd D:\ZendServer\Apache2\htdocs\Application\Window\Model\UserModel.class.php 第 142 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\index.php 第 32 行.
+
+[ 2015-03-25T17:03:50+08:00 ] 127.0.0.1 /Test?old_pwd=123456sd&pwd=456789sd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pwd D:\ZendServer\Apache2\htdocs\Application\Window\Model\UserModel.class.php 第 142 行.
+NOTIC: [8] Undefined index: pwd D:\ZendServer\Apache2\htdocs\Application\Window\Model\UserModel.class.php 第 143 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\index.php 第 32 行.
+
+[ 2015-03-25T17:03:54+08:00 ] 127.0.0.1 /Test?old_pwd=123456sd&pwd=456789sd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pwd D:\ZendServer\Apache2\htdocs\Application\Window\Model\UserModel.class.php 第 142 行.
+NOTIC: [8] Undefined index: pwd D:\ZendServer\Apache2\htdocs\Application\Window\Model\UserModel.class.php 第 143 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\index.php 第 32 行.
+
+[ 2015-03-25T17:04:19+08:00 ] 127.0.0.1 /Test?old_pwd=123456sd&pwd=456789sd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pwd D:\ZendServer\Apache2\htdocs\Application\Window\Model\UserModel.class.php 第 142 行.
+NOTIC: [8] Undefined index: pwd D:\ZendServer\Apache2\htdocs\Application\Window\Model\UserModel.class.php 第 143 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\index.php 第 32 行.
+
+[ 2015-03-25T17:04:50+08:00 ] 127.0.0.1 /Test?old_pwd=123456sd&pwd=456789sd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pwd D:\ZendServer\Apache2\htdocs\Application\Window\Model\UserModel.class.php 第 143 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\index.php 第 32 行.
+
+[ 2015-03-25T17:06:21+08:00 ] 127.0.0.1 /Test?old_pwd=123456sd&pwd=456789sd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+SQL: UPDATE `user` SET `phone_number`='13128829243',`email_address`='792526287@qq.com',`pwd`='da250570ca0904930eec4b0e4a554f03',`created_on`='2015-03-25 17:00:22',`status`='1' WHERE `id` = 1 [ RunTime:0.0980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\index.php 第 32 行.
+
+[ 2015-03-25T17:06:54+08:00 ] 127.0.0.1 /Test?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\index.php 第 32 行.
+

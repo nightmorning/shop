@@ -1,0 +1,55 @@
+<extend name="Layout/head"/>
+
+<block name="resources">
+    <style>
+        #cMain td {
+            line-height: 25px;
+        }
+    </style>
+</block>
+
+<block name="body">
+    <div class="row">
+        <include file="Layout/user_center"/>
+        <div class="col-md-6">
+            <h3>我的需求</h3>
+            <table id="cMain" class="table table-bordered">
+                <thead>
+                <th>编号</th>
+                <th>标题</th>
+                <th>说明</th>
+                <th>状态</th>
+                <th>满足</th>
+                <th>删除</th>
+                </thead>
+                <tbody>
+                <volist name="list" id="item">
+                    <if condition="$item.status eq 0">
+                        <tr class="info">
+                            <elseif condition="$item.status eq 1"/>
+                        <tr class="success">
+                    </if>
+                    <td>{$item.id}</td>
+                    <td>{$item.title}</td>
+                    <td>{$item.description}</td>
+                    <td>{$item.status_name}</td>
+                    <td>{$item.satisfy}</td>
+                    <td>
+                        <buttton type="button" class="btn btn-danger btn-xs" onclick="safeDel('{$item.id}')">
+                            删除
+                        </buttton>
+                    </td>
+                    </tr>
+                </volist>
+                </tbody>
+            </table>
+            <div id="cPagination" style="text-align: right">
+
+            </div>
+        </div>
+    </div>
+    <script>
+        var pageURL = "/UserRequirement/";
+        var pageCount = "{$page_count}";
+    </script>
+</block>

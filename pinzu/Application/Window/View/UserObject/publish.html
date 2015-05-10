@@ -1,0 +1,359 @@
+<extend name="Layout/head"/>
+
+<block name="resources">
+    <script src="__SOURCE__/js/sco/sco.valid.js"></script>
+    <style>
+        #tbParams input {
+            width: 145px;
+            height: 30px;
+            min-height: 0px;
+        }
+
+        #tbParams tr {
+            height: 40px;
+        }
+    </style>
+</block>
+
+<block name="body">
+    <div class="row">
+        <include file="Layout/user_center"/>
+        <div class="col-md-6">
+            <form data-ajax-submit action="pub" id="formMain" class="form_user" method="post">
+
+                <table>
+                    <tr>
+                        <td><label class="table-label" for="txtTitle">标题</label></td>
+                        <td colspan="2">
+                            <input type="text" class="form-control" id="txtTitle" name="title" style="width: 300px;"
+                                   value=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="table-label" for="txtPriceDay">日租金</label></td>
+                        <td>
+                            <div class="input-group">
+                                <span class="input-group-addon">￥</span>
+                                <input type="text" class="form-control" name="price_day" id="txtPriceDay">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="table-label" for="txtPriceMonth">月租金</label></td>
+                        <td>
+                            <div class="input-group">
+                                <span class="input-group-addon">￥</span>
+                                <input type="text" class="form-control" name="price_month" id="txtPriceMonth">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="table-label" for="txtPricePledge">押金</label></td>
+                        <td>
+                            <div class="input-group">
+                                <span class="input-group-addon">￥</span>
+                                <input type="text" class="form-control" name="price_pledge" id="txtPricePledge">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="table-label" for="txtShortestLease">最短租期</label></td>
+                        <td>
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="shortest_lease" id="txtShortestLease">
+                                <span class="input-group-addon">天</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="table-label" for="txtQuantity">数量</label></td>
+                        <td>
+                            <input type="text" class="form-control" name="quantity" id="txtQuantity">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="table-label" for="sSendWay">寄送方式</label></td>
+                        <td>
+                            <select class="form-control" name="send_way" id="sSendWay">
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="table-label" for="sReturnWay">返还方式</label></td>
+                        <td>
+                            <select class="form-control" name="return_way" id="sReturnWay">
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="table-label" for="sInvoiceType">发票类型</label></td>
+                        <td>
+                            <select class="form-control" name="invoice_type" id="sInvoiceType">
+                                <option value="0">无</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="table-label" for="txtPriceExpress">运费</label></td>
+                        <td>
+                            <div class="input-group">
+                                <span class="input-group-addon">￥</span>
+                                <input type="text" class="form-control" name="price_express" id="txtPriceExpress">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="table-label" for="txtDescription">描述</label></td>
+                        <td colspan="2" style="padding-top: 12px;">
+                    <textarea id="txtDescription" class="form-control" name="description"
+                              style="width: 300px;height: 100px;"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label class="table-label">照片</label></td>
+                        <td style="width: 200px;padding-bottom: 10px;padding-top:12px;" id="cImg">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="button" class="btn btn-info"
+                                    onclick="document.getElementById('fileCardImg').click();">
+                                添加+
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="table-label">商品参数</label></td>
+                        <td style="padding-top:12px;">
+                            <table>
+                                <thead>
+                                <tr>
+                                    <th>
+                                        参数名称
+                                    </th>
+
+                                    <th>
+                                        参数描述
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody id="tbParams">
+                                <tr>
+                                    <td>
+                                        <input type="text" class="form-control" data-field="name">
+                                    </td>
+                                    <td>
+                                        <input type="text" class="form-control" data-field="value">
+                                    </td>
+                                    <td style="padding-left: 8px;">
+                                        <button type="button" class="btn btn-danger btn-xs" title="删除该参数"
+                                                onclick="removeParam(this);">
+                                            &nbsp;&nbsp;X&nbsp;&nbsp;
+                                        </button>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-primary" onclick="addParam();">添加 +
+                            </button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label class="table-label" for="txtContactName">联系人</label></td>
+                        <td>
+                            <input type="text" class="form-control" name="contact_name" id="txtContactName">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="table-label" for="txtContactNumber">联系号码</label></td>
+                        <td>
+                            <input type="text" class="form-control" name="contact_number" id="txtContactNumber">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="table-label" for="txtAddress">联系地址</label></td>
+                        <td>
+                            <input type="text" class="form-control" name="address" id="txtAddress">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="2">
+                            <button type="submit" class="btn btn-warning"
+                                    style="font-size:18px;margin-top:12px;width:200px;;">
+                                立即发布
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+
+                <input type="hidden" id="hParams"/>
+
+            </form>
+
+            <div style="display: none;">
+                <form action="/Test/Upload" target="iFileUploader" enctype="multipart/form-data" method="post">
+                    <input type="file" name="cardImg" id="fileCardImg" onchange="this.parentElement.submit();"/>
+                </form>
+                <iframe src="" name="iFileUploader" frameborder="0"></iframe>
+            </div>
+
+            <script>
+
+                var exp_number = {regex: /^\d+$/};
+                var exp_decimal = {regex: /^\d+$|^\d+\.\d+$/}
+
+                var validator = $.scojs_valid("#formMain", {
+                    rules: {
+                        title: ["not_empty", {min_length: 4}, {max_length: 20}],
+                        price_day: ["not_empty", exp_decimal],
+                        price_month: ["not_empty", exp_number],
+                        price_pledge: ["not_empty", exp_number],
+                        quantity: ["not_empty", exp_number],
+                        price_express: ["not_empty", exp_number],
+                        description: ["not_empty", {min_length: 10}, {max_length: 400}],
+                        contact_name: ["not_empty", {regex: /^[\u4e00-\u9fa5a-zA-Z0-9_]{2,6}$/}],
+                        contact_number: ["not_empty", {regex: /^[\d-]{8,20}$/}],
+                        address: ["not_empty", {min_length: 5}, {max_length: 40}]
+                    },
+                    messages: {}
+                });
+
+                var cardImgCount = 0;
+
+                $("#formMain input[name]").bind("blur", function () {
+                    validator.validate();
+                });
+
+                $("form[data-ajax-submit]").bind("submit", function () {
+
+                    var valid = validator.validate();
+
+                    var params = {};
+
+                    $("#tbParams tr").each(function () {
+                        var name = $(this).find("input[data-field='name']").val();
+                        var value = $(this).find("input[data-field='value']").val();
+
+                        params[name] = value;
+                    });
+
+                    $("#hParams").val(JSON.stringify(params));
+
+                    if (valid) {
+                        if (cardImgCount == 0) {
+                            showMsg("请至少上传一张物品图片以供信息审核，谢谢合作。")
+                            return false;
+                        }
+
+                        $(this).ajaxSubmit(function (retObj) {
+                            switch (retObj.status) {
+                                case S.SUCCEED:
+                                    showMsg("添加成功！");
+                                    window.location.href = "/UserObject";
+                                    break;
+                            }
+                        });
+                    }
+
+                    return false;
+                });
+
+                function uploadFileSucceed(fileName) {
+
+                    var template = $("#tImg").html();
+
+                    template = template.config({fileName: fileName});
+
+                    $("#cImg").append(template);
+
+                    cardImgCount++;
+                }
+
+                function buildSelector($cSelector, dict) {
+                    for (var key in dict) {
+                        var value = dict[key];
+                        $cSelector.append("<option value='" + key + "'>" + value + "</option>");
+                    }
+                }
+
+                function removeParam(btn) {
+                    btn.parentElement.parentElement.remove();
+                }
+
+                function addParam() {
+                    var $tbParams = $("#tbParams");
+                    var html = $("#tParam").html();
+                    $tbParams.append(html);
+                }
+
+                $(function () {
+
+                    var dict_return_way = {
+                        0: "租主自取"
+                    };
+                    var dict_send_way = {
+                        0: "租主包送"
+                    };
+
+                    buildSelector($("#sReturnWay"), dict_return_way);
+                    buildSelector($("#sSendWay"), dict_send_way);
+
+                    var testData = {
+                        title: "全新MacBook Air 13寸高配",
+                        price_day: "30",
+                        price_month: "800",
+                        price_pledge: "4000",
+                        quantity: "4",
+                        price_express: "10",
+                        description: "手快有手慢无，各位乡亲欲租从速。",
+                        contact_name: "姜R",
+                        contact_number: "13652011541",
+                        address: "深圳市福佑路2号"
+                    };
+
+                    for (var name in testData) {
+                        var ele = $("*[name=" + name + "]");
+                        ele.val(testData[name]);
+                    }
+                });
+
+            </script>
+
+            <script type="text/template" id="tImg">
+                <a href="/Uploads/Temp/#fileName" target="_blank" class="thumbnail img">
+                    <img src="/Uploads/Temp/#fileName">
+                </a>
+                <input type="hidden" name="cardImg[]" value="#fileName"/>
+            </script>
+
+            <script type="text/template" id="tParam">
+                <tr>
+                    <td>
+                        <input type="text" class="form-control" data-field="name">
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" data-field="value">
+                    </td>
+                    <td style="padding-left: 8px;">
+                        <button type="button" class="btn btn-danger btn-xs" title="删除该参数" onclick="removeParam(this);">
+                            &nbsp;&nbsp;X&nbsp;&nbsp;
+                        </button>
+                    </td>
+                </tr>
+            </script>
+        </div>
+    </div>
+</block>

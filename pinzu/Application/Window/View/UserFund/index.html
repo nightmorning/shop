@@ -1,0 +1,107 @@
+<extend name="Layout/head"/>
+<block name="resources">
+<style type="text/css">
+#recharge,#withdcash,#deposit{
+	margin-top:10px;
+	line-height:25px;
+	display:none;
+}
+</style>
+
+</block>
+
+<block name="body">
+<include file="Layout/user_center"/>
+<div style="width:670px;margin:0 auto;margin-top:40px;">
+    <ul class="nav nav-tabs" role="tablist" style="height:35px">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">我的余额</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">我的押金</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">我的租金</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">我的保证金</a></li>
+    <li role="presentation"><a href="#voucher" aria-controls="voucher" role="tab" data-toggle="tab"></a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content" style="margin-top:40px">
+    <div role="tabpanel" class="tab-pane active" id="home">
+    	<b>可用余额</b>：<span style="color:#F00;font-weight:700">0.00</span>&nbsp;&nbsp;元&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="btn btn-warning" id="chongz" onclick="$('#recharge').show();$('#withdcash').hide();">充值</a>&nbsp;&nbsp;<a href="#" class="btn btn-info" onclick="$('#withdcash').show();$('#recharge').hide();">提现</a><br>
+    	<div id="recharge">
+        	<div class="col-md-2" style="height:40px;padding:0;">充值金额：</div>
+            <div class="col-md-10" style="height:40px;"><input class="form-control" style="width:120px;height:25px;" type="text"></div>
+            <div class="col-md-2" style="height:40px;padding:0">会员备注：</div><div class="col-md-10" style="height:60px;"><textarea class="form-control" style="width:300px;"></textarea></div>
+            支付方式：<input type="radio"/>银行汇款转账&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio"/>银联在线支付
+        </div>
+        <div id="withdcash">
+        	<div class="col-md-2" style="height:40px;padding:0;">提现金额：</div>
+            <div class="col-md-10" style="height:40px;"><input class="form-control" style="width:120px;height:25px;" type="text"></div>
+            <div class="col-md-2" style="height:40px;padding:0">会员备注：</div><div class="col-md-10" style="height:60px;"><textarea class="form-control" style="width:300px;"></textarea></div>
+            <div style="padding-left:150px;"><a href="#" class="btn btn-info">申请提现</a></div>
+        </div>
+    	<br>
+        <b>使用明细</b><br>
+      <table class="table" style="font-size:12px;margin-top:10px;">
+        	<tr>
+            	<td>操作时间</td>
+                <td>标题</td>
+                <td>金额（元）</td>
+                <td>备注</td>
+            </tr>
+            <tr>
+            	<td style="width:12%">2015-01-01</td>
+                <td>标题标题标题标题标题标题标题标题标题</td>
+                <td style="width:8%">1000.00</td>
+                <td style="width:30%">备注</td>
+            </tr>
+      </table>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="profile">
+    	<b>我的押金</b>：<span style="color:#F00;font-weight:700">0.00</span>&nbsp;&nbsp;元&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="btn btn-warning" onclick="$('#deposit').show()">退押金</a><br><br>
+        <div id="deposit">
+        	<div class="col-md-2" style="height:40px;padding:0;">提现金额：</div>
+            <div class="col-md-10" style="height:40px;"><input class="form-control" style="width:120px;height:25px;" type="text"></div>
+            <div class="col-md-2" style="height:40px;padding:0">会员备注：</div><div class="col-md-10" style="height:60px;"><textarea class="form-control" style="width:300px;"></textarea></div>
+            <div style="padding-left:150px;"><a href="#" class="btn btn-info" style="width: 100px;">提交</a></div>
+        </div>
+        <b>使用明细</b><br>
+        <table class="table" style="font-size:12px;margin-top:10px;">
+        	<tr>
+            	<td>操作时间</td>
+                <td>标题</td>
+                <td>金额（元）</td>
+                <td>备注</td>
+            </tr>
+            <tr>
+            	<td style="width:12%">2015-01-01</td>
+                <td>标题标题标题标题标题标题标题标题标题</td>
+                <td style="width:8%">1000.00</td>
+                <td style="width:30%">备注</td>
+            </tr>
+        </table>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="messages">
+    	<b>我的租金</b>：<span style="color:#F00;font-weight:700">0.00</span>&nbsp;&nbsp;元<br><br>
+        <b>使用明细</b><br>
+        <table class="table" style="font-size:12px;margin-top:10px;">
+        	<tr>
+            	<td>操作时间</td>
+                <td>标题</td>
+                <td>金额（元）</td>
+                <td>备注</td>
+            </tr>
+            <tr>
+            	<td style="width:12%">2015-01-01</td>
+                <td>标题标题标题标题标题标题标题标题标题</td>
+                <td style="width:8%">1000.00</td>
+                <td style="width:30%">备注</td>
+            </tr>
+    </table></div>
+    <div role="tabpanel" class="tab-pane" id="settings">
+    	<b>我的保证金</b>：<span style="color:#F00;font-weight:700">0.00</span>&nbsp;&nbsp;元&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="btn btn-warning">申请提现</a><br><br>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="voucher">
+    	
+    </div>
+  </div>
+
+</div>
+</block>

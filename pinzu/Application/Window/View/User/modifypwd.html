@@ -1,0 +1,88 @@
+<extend name="Layout/head"/>
+
+<block name="resources">
+    <script src="__SOURCE__/js/sco/sco.valid.js"></script>
+</block>
+
+
+<block name="body">
+    <div class="row">
+        <include file="Layout/user_center"/>
+
+        <div class="col-md-8">
+            <form data-ajax-submit action="save_pwd" id="formMain" class="form_user" method="post">
+
+                <table style="width: 450px;">
+                    <tr>
+                        <td>
+                            <label style="width: 200px;" for="txtOldPwd"> 旧密码</label>
+                        </td>
+                        <td>
+                            <input type="password" class="form-control" id="txtOldPwd" name="old_pwd" value=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtPwd">新密码</label></td>
+                        <td>
+                            <input type="password" class="form-control" id="txtPwd" name="pwd"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtRePwd">重复密码</label></td>
+                        <td>
+                            <input type="password" class="form-control" id="txtRePwd" name="re_pwd"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <button type="submit" class="btn btn-warning"
+                                    style="font-size:18px;margin-top:12px;width:200px;">保存新密码
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+        </div>
+
+    </div>
+
+    <script>
+
+        var validator = $.scojs_valid("#formMain", {
+            rules: {
+                old_pwd: ['not_empty'],
+                pwd: ['not_empty', {regex: /[a-zA-Z0-9_]{6,20}/}],
+                re_pwd: [{matches: 'pwd'}]
+            },
+            messages: {
+                old_pwd: {not_empty: "旧密码不能为空"},
+                pwd: {regex: "密码可由数字、字母、下划线组成，长度为6-20位"},
+                re_pwd: {matches: "两次输入的密码不一致"}
+            }
+        });
+
+        $("#formMain input[name]").bind("blur", function () {
+            validator.validate();
+        });
+
+        $("form[data-ajax-submit]").bind("submit", function () {
+
+            var valid = validator.validate();
+
+            $(this).ajaxSubmit(function (retObj) {
+                switch (retObj.status) {
+                    case S.SUCCEED:
+                        showMsg("修改成功。");
+                        window.location.href = "/User";
+                        break;
+                    case S.CUSERROR :
+                        showMsg("您的旧密码错误，请核对后再试。");
+                        break;
+                }
+            });
+            return false;
+        });
+
+    </script>
+</block>

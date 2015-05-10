@@ -1,0 +1,72 @@
+<extend name="Layout/head"/>
+
+<block name="body">
+
+    <style>
+        #cDetails td {
+            min-height: 60px;
+        }
+
+        #cDetails td input {
+            height: 35px;
+            width: 300px;
+
+        }
+
+        #cDetails td textarea {
+            height: 80px;
+            width: 300px;
+            resize: none;
+        }
+
+        #cDetails td:first-child{
+            text-align: right;
+            padding-right: 12px;
+        }
+
+    </style>
+
+    <div id="cDetails" style="width:600px;">
+
+        <table>
+            <tbody>
+            <tr>
+                <td >网站标题</td>
+                <td><input type="text" name="title" class="k-textbox" value="{$config.title}"/></td>
+            </tr>
+
+            <tr>
+                <td>关键词</td>
+                <td><textarea resize="0" type="text" name="keywords" class="k-textbox" >{$config.keywords}</textarea></td>
+            </tr>
+
+            <tr>
+                <td>描述</td>
+                <td><textarea type="text" name="description" class="k-textbox" >{$config.description}</textarea></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td style="text-align: right;">
+                    <span style="color:deepskyblue;font-size:16px;" id="cTips_1"></span>
+                    <button class="k-button k-primary" onclick="updateModel()">保存</button>
+                </td>
+            </tr>
+            </tbody>
+
+        </table>
+
+        <input type="hidden" name="id" value="{$config.id}"/>
+
+    </div>
+
+    <script>
+        var moduleName = "WebsiteConfig";
+
+        var allowedUpdate = false;
+
+        $("#cDetails input,textarea").change(function(){
+            allowedUpdate = true;
+        });
+    </script>
+</block>

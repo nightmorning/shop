@@ -1,0 +1,59 @@
+<extend name="Layout/head"/>
+
+<block name="body">
+
+    <div id="cGrid"></div>
+
+    <script>
+        var moduleName = "Manager";
+
+        $(function () {
+            useDataGrid({
+                columns: [
+                    {field: "id", title: "编号", width: 60},
+                    {field: "user_name", title: "管理员帐号", width: 100},
+                    {field: "status", title: "状态", width: 60, template: buildSimpleTemplate("status", "正常", "已禁用")},
+                    {
+                        command: [
+                            {
+                                name: "启用丨禁用",
+                                click: toggle
+                            }
+                        ], width: 200
+                    }
+                ]
+            });
+        });
+
+    </script>
+
+    <script>
+
+        function toggle(e) {
+
+            e.preventDefault();
+
+            last_dataItem = this.dataItem($(e.currentTarget).closest("tr"));
+
+            var status = last_dataItem.status == "1" ? "0" : "1";
+
+            var model = {
+                id: last_dataItem.id,
+                status: status
+            };
+
+            $.post(BASE_URL + "update2", {models: JSON.stringify([model])}, function (retObj) {
+                switch (retObj.status) {
+                    case R.SUCCEED:
+                        last_dataItem.status = status;
+                        $kendoGrid.refresh();
+                        break;
+                    case R.FAILED:
+                        showMsg("保存失败。");
+                        break;
+                }
+            });
+        }
+
+    </script>
+</block>

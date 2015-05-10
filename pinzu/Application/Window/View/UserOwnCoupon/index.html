@@ -1,0 +1,46 @@
+<extend name="Layout/head"/>
+
+<block name="resources">
+    <style>
+        #cMain td {
+            line-height: 25px;
+        }
+    </style>
+</block>
+
+<block name="body">
+    <div class="row">
+        <include file="Layout/user_center"/>
+        <div class="col-md-6">
+            <h3>我的优惠券</h3>
+
+            <input type="text" class="form-control" style="margin: 5px 0" placeholder="输入兑换码"/>
+            <button type="submit" style="margin: 5px 0" class="btn btn-warning">立即兑换
+        </button>
+
+            <table id="cMain" class="table table-bordered">
+                <thead>
+                <th>编号</th>
+                <th>优惠券类型</th>
+                <th>有效期</th>
+                </thead>
+                <tbody>
+                <volist name="list" id="item">
+                    <tr class="success">
+                        <td>{$item.id}</td>
+                        <td>{$item.param_1|intval}元代金券</td>
+                        <td>{$item.expiry_date_start|substr=0,10}至{$item.expiry_date_end|substr=0,10}</td>
+                    </tr>
+                </volist>
+                </tbody>
+            </table>
+            <div id="cPagination" style="text-align: right">
+
+            </div>
+        </div>
+    </div>
+    <script>
+        var pageURL = "/UserOwnCoupon/";
+        var pageCount = "{$page_count}";
+    </script>
+</block>

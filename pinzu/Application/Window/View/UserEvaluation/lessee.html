@@ -1,0 +1,55 @@
+<extend name="Layout/head"/>
+
+<block name="resources">
+    <style>
+        #cMain td {
+            line-height: 25px;
+        }
+    </style>
+</block>
+
+<block name="body">
+    <div class="row">
+        <include file="Layout/user_center"/>
+        <div class="col-md-6">
+            <h3>我是承租方</h3>
+            <table id="cMain" class="table table-bordered">
+                <thead>
+                <th>编号</th>
+                <th>评价</th>
+                <th>追加内容</th>
+                <th>时间</th>
+                <th></th>
+                </thead>
+                <tbody>
+                <volist name="list" id="item">
+                    <if condition="$item.level eq 0">
+                        <tr class="success">
+                            <elseif condition="$item.level eq 1"/>
+                        <tr class="warning">
+                            <elseif condition="$item.level eq 2"/>
+                        <tr class="danger">
+                    </if>
+                    <td>{$item.id}</td>
+                    <td>{$item.level_name}</td>
+                    <td >{$item.description|mb_substr=0,25,'utf-8'}...</td>
+                    <td>{$item.created_on}</td>
+                    <td >
+                        <button class="btn btn-warning btn-xs" onclick="showMsg('{$item.description}')">
+                            查看详情
+                        </button>
+                    </td>
+                    </tr>
+                </volist>
+                </tbody>
+            </table>
+            <div id="cPagination" style="text-align: right">
+
+            </div>
+        </div>
+    </div>
+    <script>
+        var pageURL = "/UserEvaluation/Lessee/";
+        var pageCount = "{$page_count}";
+    </script>
+</block>

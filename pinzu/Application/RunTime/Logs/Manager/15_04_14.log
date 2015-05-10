@@ -1,0 +1,1287 @@
+[ 2015-04-14T09:36:41+08:00 ] 127.0.0.1 /m.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:36:49+08:00 ] 127.0.0.1 /m.php/Manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:36:49+08:00 ] 127.0.0.1 /m.php/Manager/read?callback=jQuery191010782240395035603_1428975409205&conditions=%7B%7D&_=1428975409206
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `manager`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:36:51+08:00 ] 127.0.0.1 /m.php/Manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:36:51+08:00 ] 127.0.0.1 /m.php/Manager/read?callback=jQuery19104963235425443442_1428975411386&conditions=%7B%7D&_=1428975411387
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `manager`  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:36:53+08:00 ] 127.0.0.1 /m.php/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0440s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:36:53+08:00 ] 127.0.0.1 /m.php/User/read?callback=jQuery191022322637975505233_1428975413165&conditions=%7B%7D&_=1428975413166
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: uid D:\ZendServer\Apache2\htdocs\Common\Globals.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0150s ]
+SQL: SELECT User.id AS id,User.phone_number AS phone_number,User.email_address AS email_address,User.pwd AS pwd,User.created_on AS created_on,User.status AS status,User.identity_valid AS identity_valid,User_info.user_id AS user_id,User_info.nick_name AS nick_name,User_info.real_name AS real_name,User_info.card_no AS card_no,User_info.qq_number AS qq_number,User_info.address AS address FROM user User  JOIN user_info User_info ON user_info.user_id=user.id  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:36:55+08:00 ] 127.0.0.1 /m.php/UserRequirement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\UserRequirementModel::query() should be compatible with Think\Model::query($sql, $parse = false) D:\ZendServer\Apache2\htdocs\Application\Common\Model\UserRequirementModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:36:55+08:00 ] 127.0.0.1 /m.php/UserRequirement/read?callback=jQuery19108855235191976263_1428975415615&conditions=%7B%7D&_=1428975415616
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\UserRequirementModel::query() should be compatible with Think\Model::query($sql, $parse = false) D:\ZendServer\Apache2\htdocs\Application\Common\Model\UserRequirementModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: uid D:\ZendServer\Apache2\htdocs\Common\Globals.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT User_requirement.id AS id,User_requirement.user_id AS user_id,User_requirement.title AS title,User_requirement.description AS description,User_requirement.status AS status,User_requirement.removed AS removed,User_requirement.published_on AS published_on,User_requirement.satisfy AS satisfy,(case when user.phone_number is not null then user.phone_number else user.email_address end) AS user_name FROM user_requirement User_requirement  JOIN user User ON user.id = user_requirement.user_id WHERE User_requirement.removed = 0  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:36:58+08:00 ] 127.0.0.1 /m.php/ObjectCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `object_category` [ RunTime:0.0420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:37:00+08:00 ] 127.0.0.1 /m.php/UserRequirement/read?callback=jQuery19106973727742211816_1428975420030&conditions=%7B%7D&_=1428975420031
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\UserRequirementModel::query() should be compatible with Think\Model::query($sql, $parse = false) D:\ZendServer\Apache2\htdocs\Application\Common\Model\UserRequirementModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: uid D:\ZendServer\Apache2\htdocs\Common\Globals.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0160s ]
+SQL: SELECT User_requirement.id AS id,User_requirement.user_id AS user_id,User_requirement.title AS title,User_requirement.description AS description,User_requirement.status AS status,User_requirement.removed AS removed,User_requirement.published_on AS published_on,User_requirement.satisfy AS satisfy,(case when user.phone_number is not null then user.phone_number else user.email_address end) AS user_name FROM user_requirement User_requirement  JOIN user User ON user.id = user_requirement.user_id WHERE User_requirement.removed = 0  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:37:03+08:00 ] 127.0.0.1 /m.php/UserObject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:37:04+08:00 ] 127.0.0.1 /m.php/UserObject/read?callback=jQuery191047783838041050963_1428975424044&conditions=%7B%7D&_=1428975424045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `object_category` [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0150s ]
+SQL: SELECT User_object.id AS id,User_object.user_id AS user_id,User_object.cat_id AS cat_id,User_object.title AS title,User_object.description AS description,User_object.params AS params,User_object.price_day AS price_day,User_object.price_pledge AS price_pledge,User_object.quantity AS quantity,User_object.return_way AS return_way,User_object.send_way AS send_way,User_object.published_on AS published_on,User_object.modified_on AS modified_on,User_object.price_express AS price_express,User_object.contact_name AS contact_name,User_object.contact_number AS contact_number,User_object.address AS address,User_object.status AS status,User_object.removed AS removed,User_object.price_month AS price_month,User_object.invoice_type AS invoice_type,User_object.shortest_lease AS shortest_lease,Object_category.name AS cat_name,(case when user.phone_number is not null then user.phone_number else user.email_address end) AS user_name FROM user_object User_object  JOIN object_category Object_category ON object_category.id=user_object.cat_id  JOIN user User ON user.id = user_object.user_id  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:37:06+08:00 ] 127.0.0.1 /m.php/UserLeaseLogs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user_lease_logs` [ RunTime:0.0330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:37:08+08:00 ] 127.0.0.1 /m.php/UserObject/read?callback=jQuery19105919856237687581_1428975428444&conditions=%7B%7D&_=1428975428445
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `object_category` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: SELECT User_object.id AS id,User_object.user_id AS user_id,User_object.cat_id AS cat_id,User_object.title AS title,User_object.description AS description,User_object.params AS params,User_object.price_day AS price_day,User_object.price_pledge AS price_pledge,User_object.quantity AS quantity,User_object.return_way AS return_way,User_object.send_way AS send_way,User_object.published_on AS published_on,User_object.modified_on AS modified_on,User_object.price_express AS price_express,User_object.contact_name AS contact_name,User_object.contact_number AS contact_number,User_object.address AS address,User_object.status AS status,User_object.removed AS removed,User_object.price_month AS price_month,User_object.invoice_type AS invoice_type,User_object.shortest_lease AS shortest_lease,Object_category.name AS cat_name,(case when user.phone_number is not null then user.phone_number else user.email_address end) AS user_name FROM user_object User_object  JOIN object_category Object_category ON object_category.id=user_object.cat_id  JOIN user User ON user.id = user_object.user_id  [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:37:20+08:00 ] 127.0.0.1 /m.php/UserLeaseLogs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user_lease_logs` [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:37:22+08:00 ] 127.0.0.1 /m.php/UserObject/read?callback=jQuery19106251583629945113_1428975442015&conditions=%7B%7D&_=1428975442016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `object_category` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0110s ]
+SQL: SELECT User_object.id AS id,User_object.user_id AS user_id,User_object.cat_id AS cat_id,User_object.title AS title,User_object.description AS description,User_object.params AS params,User_object.price_day AS price_day,User_object.price_pledge AS price_pledge,User_object.quantity AS quantity,User_object.return_way AS return_way,User_object.send_way AS send_way,User_object.published_on AS published_on,User_object.modified_on AS modified_on,User_object.price_express AS price_express,User_object.contact_name AS contact_name,User_object.contact_number AS contact_number,User_object.address AS address,User_object.status AS status,User_object.removed AS removed,User_object.price_month AS price_month,User_object.invoice_type AS invoice_type,User_object.shortest_lease AS shortest_lease,Object_category.name AS cat_name,(case when user.phone_number is not null then user.phone_number else user.email_address end) AS user_name FROM user_object User_object  JOIN object_category Object_category ON object_category.id=user_object.cat_id  JOIN user User ON user.id = user_object.user_id  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T09:38:04+08:00 ] 127.0.0.1 /m.php/WebsiteConfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `website_config` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `website_config` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T13:45:55+08:00 ] 127.0.0.1 /m.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:04:15+08:00 ] 127.0.0.1 /m.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:04:24+08:00 ] 127.0.0.1 /m.php/ObjectCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `object_category` [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:04:28+08:00 ] 127.0.0.1 /m.php/UserObject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:04:28+08:00 ] 127.0.0.1 /m.php/UserObject/read?callback=jQuery19107500530025346342_1428991468355&conditions=%7B%7D&_=1428991468356
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `object_category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: SELECT User_object.id AS id,User_object.user_id AS user_id,User_object.cat_id AS cat_id,User_object.title AS title,User_object.description AS description,User_object.params AS params,User_object.price_day AS price_day,User_object.price_pledge AS price_pledge,User_object.quantity AS quantity,User_object.return_way AS return_way,User_object.send_way AS send_way,User_object.published_on AS published_on,User_object.modified_on AS modified_on,User_object.price_express AS price_express,User_object.contact_name AS contact_name,User_object.contact_number AS contact_number,User_object.address AS address,User_object.status AS status,User_object.removed AS removed,User_object.price_month AS price_month,User_object.invoice_type AS invoice_type,User_object.shortest_lease AS shortest_lease,Object_category.name AS cat_name,(case when user.phone_number is not null then user.phone_number else user.email_address end) AS user_name FROM user_object User_object  JOIN object_category Object_category ON object_category.id=user_object.cat_id  JOIN user User ON user.id = user_object.user_id  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:04:31+08:00 ] 127.0.0.1 /m.php/UserLeaseLogs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user_lease_logs` [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:04:33+08:00 ] 127.0.0.1 /m.php/UserObject/read?callback=jQuery19109448808794374303_1428991472881&conditions=%7B%7D&_=1428991472882
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `object_category` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0140s ]
+SQL: SELECT User_object.id AS id,User_object.user_id AS user_id,User_object.cat_id AS cat_id,User_object.title AS title,User_object.description AS description,User_object.params AS params,User_object.price_day AS price_day,User_object.price_pledge AS price_pledge,User_object.quantity AS quantity,User_object.return_way AS return_way,User_object.send_way AS send_way,User_object.published_on AS published_on,User_object.modified_on AS modified_on,User_object.price_express AS price_express,User_object.contact_name AS contact_name,User_object.contact_number AS contact_number,User_object.address AS address,User_object.status AS status,User_object.removed AS removed,User_object.price_month AS price_month,User_object.invoice_type AS invoice_type,User_object.shortest_lease AS shortest_lease,Object_category.name AS cat_name,(case when user.phone_number is not null then user.phone_number else user.email_address end) AS user_name FROM user_object User_object  JOIN object_category Object_category ON object_category.id=user_object.cat_id  JOIN user User ON user.id = user_object.user_id  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:04:40+08:00 ] 127.0.0.1 /m.php/Manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:04:40+08:00 ] 127.0.0.1 /m.php/Manager/read?callback=jQuery19109543611298070672_1428991480471&conditions=%7B%7D&_=1428991480472
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `manager`  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:04:47+08:00 ] 127.0.0.1 /m.php/Manager/update2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0180s ]
+SQL: UPDATE `manager` SET `status`='1' WHERE `id` = 1 [ RunTime:0.1600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:04:48+08:00 ] 127.0.0.1 /m.php/Manager/update2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0180s ]
+SQL: UPDATE `manager` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:05:19+08:00 ] 127.0.0.1 /m.php/WebsiteConfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `website_config` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `website_config` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:05:23+08:00 ] 127.0.0.1 /m.php/Banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:05:24+08:00 ] 127.0.0.1 /m.php/Banner/read?callback=jQuery19106279475344767974_1428991523833&conditions=%7B%7D&_=1428991523834
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:05:28+08:00 ] 127.0.0.1 /m.php/Manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:05:28+08:00 ] 127.0.0.1 /m.php/Manager/read?callback=jQuery191037785567174542023_1428991528469&conditions=%7B%7D&_=1428991528470
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `manager`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:05:31+08:00 ] 127.0.0.1 /m.php/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:05:32+08:00 ] 127.0.0.1 /m.php/User/read?callback=jQuery19106737190962859443_1428991531748&conditions=%7B%7D&_=1428991531749
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: uid D:\ZendServer\Apache2\htdocs\Common\Globals.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0140s ]
+SQL: SELECT User.id AS id,User.phone_number AS phone_number,User.email_address AS email_address,User.pwd AS pwd,User.created_on AS created_on,User.status AS status,User.identity_valid AS identity_valid,User_info.user_id AS user_id,User_info.nick_name AS nick_name,User_info.real_name AS real_name,User_info.card_no AS card_no,User_info.qq_number AS qq_number,User_info.address AS address FROM user User  JOIN user_info User_info ON user_info.user_id=user.id  [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:05:34+08:00 ] 127.0.0.1 /m.php/UserRequirement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\UserRequirementModel::query() should be compatible with Think\Model::query($sql, $parse = false) D:\ZendServer\Apache2\htdocs\Application\Common\Model\UserRequirementModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:05:34+08:00 ] 127.0.0.1 /m.php/UserRequirement/read?callback=jQuery19108287544737443321_1428991534477&conditions=%7B%7D&_=1428991534478
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\UserRequirementModel::query() should be compatible with Think\Model::query($sql, $parse = false) D:\ZendServer\Apache2\htdocs\Application\Common\Model\UserRequirementModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: uid D:\ZendServer\Apache2\htdocs\Common\Globals.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: SELECT User_requirement.id AS id,User_requirement.user_id AS user_id,User_requirement.title AS title,User_requirement.description AS description,User_requirement.status AS status,User_requirement.removed AS removed,User_requirement.published_on AS published_on,User_requirement.satisfy AS satisfy,(case when user.phone_number is not null then user.phone_number else user.email_address end) AS user_name FROM user_requirement User_requirement  JOIN user User ON user.id = user_requirement.user_id WHERE User_requirement.removed = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:05:39+08:00 ] 127.0.0.1 /m.php/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:05:40+08:00 ] 127.0.0.1 /m.php/User/read?callback=jQuery1910426893513870541_1428991539543&conditions=%7B%7D&_=1428991539544
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: uid D:\ZendServer\Apache2\htdocs\Common\Globals.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0130s ]
+SQL: SELECT User.id AS id,User.phone_number AS phone_number,User.email_address AS email_address,User.pwd AS pwd,User.created_on AS created_on,User.status AS status,User.identity_valid AS identity_valid,User_info.user_id AS user_id,User_info.nick_name AS nick_name,User_info.real_name AS real_name,User_info.card_no AS card_no,User_info.qq_number AS qq_number,User_info.address AS address FROM user User  JOIN user_info User_info ON user_info.user_id=user.id  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:07:11+08:00 ] 127.0.0.1 /m.php/Handler/GetFiles?fk=2&sf=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:07:25+08:00 ] 127.0.0.1 /m.php/Handler/GetFiles?fk=2&sf=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:07:43+08:00 ] 127.0.0.1 /m.php/UserObject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:07:43+08:00 ] 127.0.0.1 /m.php/UserObject/read?callback=jQuery19101715031995589208_1428991663239&conditions=%7B%7D&_=1428991663240
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `object_category` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0270s ]
+SQL: SELECT User_object.id AS id,User_object.user_id AS user_id,User_object.cat_id AS cat_id,User_object.title AS title,User_object.description AS description,User_object.params AS params,User_object.price_day AS price_day,User_object.price_pledge AS price_pledge,User_object.quantity AS quantity,User_object.return_way AS return_way,User_object.send_way AS send_way,User_object.published_on AS published_on,User_object.modified_on AS modified_on,User_object.price_express AS price_express,User_object.contact_name AS contact_name,User_object.contact_number AS contact_number,User_object.address AS address,User_object.status AS status,User_object.removed AS removed,User_object.price_month AS price_month,User_object.invoice_type AS invoice_type,User_object.shortest_lease AS shortest_lease,Object_category.name AS cat_name,(case when user.phone_number is not null then user.phone_number else user.email_address end) AS user_name FROM user_object User_object  JOIN object_category Object_category ON object_category.id=user_object.cat_id  JOIN user User ON user.id = user_object.user_id  [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:07:46+08:00 ] 127.0.0.1 /m.php/ObjectCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `object_category` [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:07:48+08:00 ] 127.0.0.1 /m.php/UserObject/read?callback=jQuery19107489598499972464_1428991668417&conditions=%7B%7D&_=1428991668418
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `user_object` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `object_category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0140s ]
+SQL: SELECT User_object.id AS id,User_object.user_id AS user_id,User_object.cat_id AS cat_id,User_object.title AS title,User_object.description AS description,User_object.params AS params,User_object.price_day AS price_day,User_object.price_pledge AS price_pledge,User_object.quantity AS quantity,User_object.return_way AS return_way,User_object.send_way AS send_way,User_object.published_on AS published_on,User_object.modified_on AS modified_on,User_object.price_express AS price_express,User_object.contact_name AS contact_name,User_object.contact_number AS contact_number,User_object.address AS address,User_object.status AS status,User_object.removed AS removed,User_object.price_month AS price_month,User_object.invoice_type AS invoice_type,User_object.shortest_lease AS shortest_lease,Object_category.name AS cat_name,(case when user.phone_number is not null then user.phone_number else user.email_address end) AS user_name FROM user_object User_object  JOIN object_category Object_category ON object_category.id=user_object.cat_id  JOIN user User ON user.id = user_object.user_id  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:08:07+08:00 ] 127.0.0.1 /m.php/Banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:08:08+08:00 ] 127.0.0.1 /m.php/Banner/read?callback=jQuery19104394447992606676_1428991688004&conditions=%7B%7D&_=1428991688005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:08:10+08:00 ] 127.0.0.1 /m.php/Manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:08:11+08:00 ] 127.0.0.1 /m.php/Manager/read?callback=jQuery1910559143555558607_1428991690652&conditions=%7B%7D&_=1428991690653
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `manager`  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:08:14+08:00 ] 127.0.0.1 /m.php/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:08:15+08:00 ] 127.0.0.1 /m.php/User/read?callback=jQuery19104015913590166178_1428991694733&conditions=%7B%7D&_=1428991694734
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0260s ]
+NOTIC: [8] Undefined index: uid D:\ZendServer\Apache2\htdocs\Common\Globals.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0120s ]
+SQL: SELECT User.id AS id,User.phone_number AS phone_number,User.email_address AS email_address,User.pwd AS pwd,User.created_on AS created_on,User.status AS status,User.identity_valid AS identity_valid,User_info.user_id AS user_id,User_info.nick_name AS nick_name,User_info.real_name AS real_name,User_info.card_no AS card_no,User_info.qq_number AS qq_number,User_info.address AS address FROM user User  JOIN user_info User_info ON user_info.user_id=user.id  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:08:17+08:00 ] 127.0.0.1 /m.php/UserRequirement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\UserRequirementModel::query() should be compatible with Think\Model::query($sql, $parse = false) D:\ZendServer\Apache2\htdocs\Application\Common\Model\UserRequirementModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:08:17+08:00 ] 127.0.0.1 /m.php/UserRequirement/read?callback=jQuery191008669514217515895_1428991697200&conditions=%7B%7D&_=1428991697201
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\UserRequirementModel::query() should be compatible with Think\Model::query($sql, $parse = false) D:\ZendServer\Apache2\htdocs\Application\Common\Model\UserRequirementModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: uid D:\ZendServer\Apache2\htdocs\Common\Globals.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0210s ]
+SQL: SELECT User_requirement.id AS id,User_requirement.user_id AS user_id,User_requirement.title AS title,User_requirement.description AS description,User_requirement.status AS status,User_requirement.removed AS removed,User_requirement.published_on AS published_on,User_requirement.satisfy AS satisfy,(case when user.phone_number is not null then user.phone_number else user.email_address end) AS user_name FROM user_requirement User_requirement  JOIN user User ON user.id = user_requirement.user_id WHERE User_requirement.removed = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:08:18+08:00 ] 127.0.0.1 /m.php/Manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:08:19+08:00 ] 127.0.0.1 /m.php/Manager/read?callback=jQuery191026215660958100784_1428991698770&conditions=%7B%7D&_=1428991698771
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `manager`  [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:19:24+08:00 ] 127.0.0.1 /m.php/Manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:19:25+08:00 ] 127.0.0.1 /m.php/Manager/read?callback=jQuery191041248042799676454_1428992364815&conditions=%7B%7D&_=1428992364816
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `manager`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:19:29+08:00 ] 127.0.0.1 /m.php/Banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:19:29+08:00 ] 127.0.0.1 /m.php/Banner/read?callback=jQuery19107549061358819287_1428992369330&conditions=%7B%7D&_=1428992369331
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:21:27+08:00 ] 127.0.0.1 /m.php/WebsiteConfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `website_config` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `website_config` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:22:17+08:00 ] 127.0.0.1 /m.php/Manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:22:17+08:00 ] 127.0.0.1 /m.php/Manager/read?callback=jQuery19106215381757596733_1428992537315&conditions=%7B%7D&_=1428992537316
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `manager`  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:22:20+08:00 ] 127.0.0.1 /m.php/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:22:20+08:00 ] 127.0.0.1 /m.php/User/read?callback=jQuery191007024905842918738_1428992540325&conditions=%7B%7D&_=1428992540326
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: uid D:\ZendServer\Apache2\htdocs\Common\Globals.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0210s ]
+SQL: SELECT User.id AS id,User.phone_number AS phone_number,User.email_address AS email_address,User.pwd AS pwd,User.created_on AS created_on,User.status AS status,User.identity_valid AS identity_valid,User_info.user_id AS user_id,User_info.nick_name AS nick_name,User_info.real_name AS real_name,User_info.card_no AS card_no,User_info.qq_number AS qq_number,User_info.address AS address FROM user User  JOIN user_info User_info ON user_info.user_id=user.id  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:22:22+08:00 ] 127.0.0.1 /m.php/UserRequirement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\UserRequirementModel::query() should be compatible with Think\Model::query($sql, $parse = false) D:\ZendServer\Apache2\htdocs\Application\Common\Model\UserRequirementModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:22:22+08:00 ] 127.0.0.1 /m.php/UserRequirement/read?callback=jQuery191003699720361113468_1428992542429&conditions=%7B%7D&_=1428992542430
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\UserRequirementModel::query() should be compatible with Think\Model::query($sql, $parse = false) D:\ZendServer\Apache2\htdocs\Application\Common\Model\UserRequirementModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: uid D:\ZendServer\Apache2\htdocs\Common\Globals.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0180s ]
+SQL: SELECT User_requirement.id AS id,User_requirement.user_id AS user_id,User_requirement.title AS title,User_requirement.description AS description,User_requirement.status AS status,User_requirement.removed AS removed,User_requirement.published_on AS published_on,User_requirement.satisfy AS satisfy,(case when user.phone_number is not null then user.phone_number else user.email_address end) AS user_name FROM user_requirement User_requirement  JOIN user User ON user.id = user_requirement.user_id WHERE User_requirement.removed = 0  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:22:24+08:00 ] 127.0.0.1 /m.php/ObjectCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `object_category` [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:22:26+08:00 ] 127.0.0.1 /m.php/UserRequirement/read?callback=jQuery19105664019661043849_1428992546446&conditions=%7B%7D&_=1428992546447
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\UserRequirementModel::query() should be compatible with Think\Model::query($sql, $parse = false) D:\ZendServer\Apache2\htdocs\Application\Common\Model\UserRequirementModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: uid D:\ZendServer\Apache2\htdocs\Common\Globals.php 第 61 行.
+SQL: SHOW COLUMNS FROM `user_requirement` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0210s ]
+SQL: SELECT User_requirement.id AS id,User_requirement.user_id AS user_id,User_requirement.title AS title,User_requirement.description AS description,User_requirement.status AS status,User_requirement.removed AS removed,User_requirement.published_on AS published_on,User_requirement.satisfy AS satisfy,(case when user.phone_number is not null then user.phone_number else user.email_address end) AS user_name FROM user_requirement User_requirement  JOIN user User ON user.id = user_requirement.user_id WHERE User_requirement.removed = 0  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:22:50+08:00 ] 127.0.0.1 /m.php/Manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+
+[ 2015-04-14T14:22:50+08:00 ] 127.0.0.1 /m.php/Manager/read?callback=jQuery1910593683467203796_1428992570425&conditions=%7B%7D&_=1428992570426
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `manager`  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ZendServer\Apache2\htdocs\m.php 第 32 行.
+

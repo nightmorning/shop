@@ -1,0 +1,126 @@
+<extend name="Layout/head"/>
+
+<block name="resources">
+    <script src="__SOURCE__/js/sco/sco.valid.js"></script>
+</block>
+
+<block name="body">
+    <div class="row">
+        <include file="Layout/user_center"/>
+
+        <div class="col-md-8">
+            <form data-ajax-submit action="add" id="formMain" class="form_user" method="post">
+
+                <table style="width: 400px">
+                    <tr>
+                        <td><label for="txtBankName">开户行</label></td>
+                        <td>
+                            <input type="text" class="form-control" id="txtBankName" name="card_from" value=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="txtCardNo">银行卡号</label>
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" id="txtCardNo" name="card_no" value=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>银行卡照片</label></td>
+                        <td style="width: 200px;padding-bottom: 10px;padding-top:12px;" id="cImg">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="button" class="btn btn-info"
+                                    onclick="document.getElementById('fileCardImg').click();">添加+
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit" class="btn btn-warning"
+                                    style="font-size:18px;margin-top:12px;width:200px;">
+                                保存信息
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+
+            <div style="display: none;">
+                <form action="/Test/Upload" target="iFileUploader" enctype="multipart/form-data" method="post">
+                    <!--<form action="/Test/Upload"  enctype="multipart/form-data" method="post">-->
+                    <input type="file" name="cardImg" id="fileCardImg" onchange="this.parentElement.submit();"/>
+                </form>
+                <iframe src="" name="iFileUploader" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        var validator = $.scojs_valid("#formMain", {
+            rules: {
+                card_from: ["not_empty"],
+                card_no: [{regex: /^[\d]{9,30}$/}]
+            },
+            messages: {
+                card_from: {"not_empty": "请输入正确的开户银行名称，如中国工商银行"},
+                card_no: {regex: "请输入正确的银行卡号，无需空格"}
+            }
+        });
+
+        var cardImgCount = 0;
+
+        $("#formMain input[name]").bind("blur", function () {
+            validator.validate();
+        });
+
+        $("form[data-ajax-submit]").bind("submit", function () {
+
+            var valid = validator.validate();
+
+            if (valid) {
+                if (cardImgCount == 0) {
+                    showMsg("请至少上传一张银行卡扫描件以供信息审核，谢谢合作。")
+                    return false;
+                }
+
+                $(this).ajaxSubmit(function (retObj) {
+                    switch (retObj.status) {
+                        case S.SUCCEED:
+                            showMsg("添加成功！");
+                            window.location.href = "/UserBankCard";
+                            break;
+                    }
+                });
+            }
+
+
+            return false;
+        });
+
+        function uploadFileSucceed(fileName) {
+
+            var template = $("#tImg").html();
+
+            template = template.config({fileName: fileName});
+
+            $("#cImg").append(template);
+
+            cardImgCount++;
+        }
+
+    </script>
+
+    <script type="text/template" id="tImg">
+        <a href="/Uploads/Temp/#fileName" target="_blank" class="thumbnail img">
+            <img src="/Uploads/Temp/#fileName">
+        </a>
+        <input type="hidden" name="cardImg[]" value="#fileName"/>
+    </script>
+</block>

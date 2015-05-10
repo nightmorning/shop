@@ -1,0 +1,54 @@
+<extend name="Layout/head"/>
+
+<block name="body">
+
+    <div id="cGrid"></div>
+
+    <div id="cWin"></div>
+
+    <script>
+        var moduleName = "Banner";
+
+        modules.enable_save_index();
+
+        $(function () {
+            useDataGrid({
+                columns: [
+                    {field: "url", title: "超链接（点击后跳转）", width: 200},
+                    {field: "description", title: "说明（鼠标划过时显示）", width: 200},
+                    {
+                        title: "显示顺序",
+                        command: [
+                            {
+                                name: "↑",
+                                click: indexUp
+                            },
+                            {
+                                name: "↓",
+                                click: indexDown
+                            }], width: 120
+                    },
+                    {
+                        command: [
+                            {
+                                name: "图片",
+                                click: indexDown
+                            },
+                            "edit",
+                            "destroy",
+                        ], width: 200
+                    }
+                ],
+                toolbar:["create",{name:"saveIndex",text:"保存顺序"}]
+            });
+            $(".k-grid-saveIndex").click(function () {
+                $.post(BASE_URL + "updateIndex", {ids: getIds_sorted()},function(retObj){
+
+
+                });
+            });
+        });
+
+
+    </script>
+</block>

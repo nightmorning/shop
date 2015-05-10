@@ -1,0 +1,67 @@
+<extend name="Layout/head"/>
+
+<block name="body">
+    <div class="row">
+        <include file="Layout/user_center"/>
+
+        <div class="col-md-8" id="cUserInfo">
+
+            <h3>
+                帐号安全
+            </h3>
+            <if condition="$user.status eq 1 or $user.status eq 2">
+                <p>您的帐号的安全系数为：<span>50%</span></p>
+                <elseif condition="$user.status eq 2"/>
+                <p>您的帐号的安全系数为：<span>100%</span></p>
+            </if>
+
+            <if condition="$user.phone_number eq NULL">
+                <p>
+                    <a href="/User/PNEditor" target="_blank" class="btn btn-danger">绑定手机号码</a>
+                    您尚未绑定手机号码，请及时绑定，有助于提升帐号安全系数。
+                </p>
+                <else/>
+                <p>
+                    <a href="/User/PNEditor" target="_blank" class="btn btn-info">更改手机号码</a>
+                    您当前的手机号码为：<span name="phone_number"></span>
+                </p>
+            </if>
+
+            <if condition="$user.email_address eq NULL">
+                <p>
+                    <a href="/User/EMEditor" target="_blank" class="btn btn-danger">绑定邮箱地址</a>
+                    您尚未绑定邮箱地址，请及时绑定，有助于提升帐号安全系数。
+                </p>
+                <else/>
+                <p>
+                    <a href="/User/EMEditor" target="_blank" class="btn btn-info">更改邮箱地址</a>
+                    您当前的邮箱地址为：<span name="email_address"></span>
+                </p>
+            </if>
+
+
+            <h3>
+                密码安全
+            </h3>
+
+            <p>
+                <a href="/User/ModifyPwd" target="_blank" class="btn btn-danger">修改密码</a>
+                更加复杂的密码可最大程度上保障您的帐号安全。
+            </p>
+        </div>
+
+    </div>
+
+    <script>
+
+        $(function () {
+            var testData = {
+                phone_number: "{$user.phone_number}",
+                email_address: "{$user.email_address}"
+            };
+
+            fillByModel(testData, $("#cUserInfo"))
+        });
+
+    </script>
+</block>

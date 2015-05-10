@@ -1,0 +1,81 @@
+<extend name="Layout/head"/>
+
+<block name="body">
+
+    <div id="cGrid"></div>
+    <div id="cWin"></div>
+
+    <script>
+        var moduleName = "Coupon";
+
+        var dict_coupon_type = {
+            1: "代金券"
+        };
+
+        $(function () {
+            useDataGrid({
+                columns: [
+                    {field: "id", title: "编号", width: 60},
+                    {
+                        field: "type_id",
+                        title: "优惠券类型",
+                        width: 100,
+                        template: buildTemplate(dict_coupon_type, "type_id"),
+                        editor: buildDropDownEditor(convertToList(dict_coupon_type))
+                    },
+                    {field: "param_1", title: "参数X", width: 100},
+                    {field: "param_2", title: "参数Y", width: 100},
+                    {
+                        command: [
+                            {
+                                name: "优惠码",
+                                click: showDetails
+                            }
+                        ], width: 48
+                    },
+                    {
+                        command: [
+                            "edit",
+                            "destroy",
+                        ], width: 200
+                    }
+                ],
+                toolbar: ["create"]
+            });
+        });
+
+        function destroyAll(id) {
+            $.get("__M_ROOT__/CouponKey/DestroyAll?id=" + id, {}, function (retObj) {
+                showMsg("已经清除" + retObj.count + "条记录。");
+                $("#txtCouponKeys").html("");
+            }, false);
+        }
+
+        function loadCouponKeys(id) {
+
+            $.get("__M_ROOT__/CouponKey/getByCouponId?id=" + id, {}, function (retObj) {
+                $("#txtCouponKeys").html(retObj.keys);
+            });
+
+            return "正在读取，请稍后";
+        }
+    </script>
+
+    <script type="text/x-kendo-template" id="tDetails">
+
+        <textarea id="txtCouponKeys" style="width:99%;height:400px;resize: none">#= loadCouponKeys(id)#</textarea>
+
+        <button class="k-button" onclick="loadCouponKeys('#= id#');">刷新</button>
+
+        <button class="k-button" onclick="destroyAll('#= id#');">清空全部</button>
+
+        <span style="float: right;">
+            <label for="txtKeyCount">激活码数量</label>
+            <input type="number" class="k-textbox" id="txtKeyCount" value="10"
+                   onchange="$('\#lBuild').attr('href','__M_ROOT__/CouponKey/Build?count=' + this.value + '&id=#= id#');"/>
+            <a href="__M_ROOT__/CouponKey/Build?count=10&id=#= id#" target="_blank" class="k-button k-primary"
+               id="lBuild">生成</a>
+        </span>
+
+    </script>
+</block>

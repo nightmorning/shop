@@ -1,0 +1,144 @@
+<extend name="Layout/head"/>
+
+<block name="resources">
+    <style type="text/css">
+.confirm-center{width: 100%;height: auto;margin-left:0;overflow: hidden;border: 1px solid #F0F0F0}
+.confirm-center-place{width: 80%;height: auto; margin:20px 100px;overflow: hidden;border: 1px solid #cccccc;background-color:#fffdfa;padding-bottom: 5px;}
+.confirm-center table tr{line-height: 40px}
+.confirm-td-center{text-align: center}
+    </style>
+</block>
+
+<block name="body">
+    <div class="col-md-12" style="margin-bottom:40px"><img src="__SOURCE__/images/scheduld_img01.png"/></div>
+    <div style="padding-bottom:10px"><h4>*以下是您的订单信息，请确认无误后提交：</h4></div>
+    <div class="confirm-center row">
+        <div class="col-md-12 confirm-center-place">
+             <table>
+                <tr>
+                    <td colspan="2"><h3>收货人信息</h3></td>
+                </tr>
+                <tr>
+                    <td><label for="txtTitle">*真实姓名：</label></td>
+                    <td colspan="2">
+                        <input type="text" class="form-control" id="txtTitle" name="title" style="width: 300px;"
+                               value=""/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="txtTitle">*手机号码：</label></td>
+                    <td colspan="2">
+                        <input type="text" class="form-control" id="txtTitle" name="title" style="width: 300px;"
+                               value=""/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="txtTitle">*所在城市：</label></td>
+                    <td><select class="form-control">
+                        <option>广东省</option>
+                    </select></td><td><select class="form-control">
+                        <option>深圳市</option>
+                    </select></td>
+                    <td><select class="form-control">
+                            <option>罗湖区</option>
+                            <option>宝安区</option>
+                            <option>福田区</option>
+                            <option>南山区</option>
+                            <option>龙岗区</option>
+                            <option>盐田区</option>
+                            <option>光明新区</option>
+                            <option>龙华新区</option>
+                            <option>大鹏新区</option>
+                            <option>坪山新区</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="txtDescription">*详细地址：</label></td>
+                    <td colspan="2">
+                    <textarea id="txtDescription" class="form-control" name="description"
+                              style="width: 300px;height: 100px;"></textarea>
+                    </td>
+                 </tr>
+            </table>
+        </div>
+        <div class="col-md-12 confirm-center-place">
+            <div>
+                <div><h3>商品信息</h3></div>
+                <table width="895" align="center" cellpadding="0" cellspacing="0">
+                    <tbody>
+                         <tr>
+                            <td height="40" colspan="2"><strong>商品</strong></td>
+                            <td width="80" class="confirm-td-center">租金</td>
+                            <td width="80" class="confirm-td-center">数量</td>
+                            <td width="80" class="confirm-td-center">押金</td>
+                            <td width="80" class="confirm-td-center">优惠</td>
+                            <td colspan="2" class="confirm-td-center">配送方式</td>
+                        </tr>
+                         <tr>
+                            <td width="150" height="120" rowspan="2"><img src="__SOURCE__/images/spdd_tp07.jpg" width="150" height="120"></td>
+                            <td width="210" height="60" style="line-height: 20px; padding-left:10px">美的空调好空调实惠大促销精品绝对超值</td>
+                            <td width="80" rowspan="2" class="confirm-td-center">￥10.00/天</td>
+                            <td width="80" rowspan="2" class="confirm-td-center">1</td>
+                            <td width="80" rowspan="2" class="confirm-td-center">￥2000.00</td>
+                            <td width="80" rowspan="2" class="confirm-td-center">￥0</td>
+                            <td rowspan="2"><select  class="form-control">
+                                     <option>请选择配送方式</option>
+                                     <option>物流配送</option>
+                                     <option>快递配送</option>
+                                     <option>网站配送</option>
+                                </select>
+                            </td>
+                         </tr>
+                         <tr>
+                            <td width="210" height="60" style=" text-align:left; text-indent:10px">编号：000000001</td>
+                        </tr>
+                         <tr>
+                             <td colspan="7" style="text-align:right">商品小计：</td>
+                             <td>￥2010.00</td>
+                         </tr>
+                         <tr>
+                             <td colspan="2">&nbsp;</td>
+                             <td colspan="2" style="text-align:right">配送服务说明：</td>
+                             <td style="text-align:right">自提<input name="radio" type="radio" id="radio" value="radio">
+                            </td>
+                            <td colspan="2" style="text-align:right">运费服务费小计：</td>
+                            <td>￥0</td>
+                        </tr>
+                         <tr>
+                            <td colspan="2">&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td colspan="2" style="text-align:right">优惠：</td>
+                            <td>￥0</td>
+                        </tr>
+                         <tr>
+                            <td colspan="2" align="right">租期确认：</td>
+                            <td style="border: 1px solid #f90;background-color: #ffffff;text-align: center">2015-1-1</td>
+                            <td align="center">至</td>
+                            <td style="border: 1px solid #f90;background-color: #ffffff;text-align: center">2015-3-1</td>
+                            <td colspan="2" style="text-align:right">店铺小计：</td>
+                            <td>￥2010.00</td>
+                        </tr>
+                         <tr>
+                            <td colspan="8" style=" text-align:left">给卖家留言:</td>
+                        </tr>
+                         <tr>
+                            <td colspan="8" style="text-align:left"><textarea class="form-control" cols="80" rows="4"></textarea>
+                            </td>
+                        </tr>
+                         <tr>
+                             <td colspan="8" style="text-align: center;padding-bottom: 20px;">
+                                 <button type="submit" class="btn btn-warning" onclick="window.location='../UserLeaseLogs/lessee.html'"
+                                         style="font-size:18px;margin-top:12px;width:200px;">
+                                     确认提交
+                                 </button>
+                             </td>
+                         </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</block>

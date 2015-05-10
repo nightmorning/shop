@@ -1,0 +1,110 @@
+<extend name="Layout/head"/>
+
+<block name="body">
+
+    <div id="cFilter" style="margin-bottom: 12px;">
+        用户名：<input name="uid" class="k-textbox" placeholder="手机号码/邮箱地址"/>
+        身份审核状态：<input type="text" name="identity_valid" id="sIdentity_valid_f"/>
+        <button class="k-button" onclick="reloadTable()">查询</button>
+        <hr/>
+    </div>
+
+    <div id="cGrid"></div>
+
+    <div id="cWin"></div>
+
+    <script>
+        var folderKey = 2;
+
+        var moduleName = "User";
+
+        $(function () {
+            useDataGrid({
+                columns: [
+                    {field: "id", title: "编号", width: 60},
+                    {field: "phone_number", title: "手机号码", width: 100},
+                    {field: "email_address", title: "邮箱地址", width: 100},
+                    {
+                        field: "status", title: "状态", width: 60, template: buildTemplate(dict_user_status, "status")
+                    },
+                    {
+                        field: "identity_valid",
+                        title: "身份证状态",
+                        width: 60,
+                        template: buildTemplate(dict_identity_status, "identity_valid")
+                    },
+                    {
+                        command: [
+                            {
+                                name: "查看详情",
+                                click: showDetails
+                            }
+                        ], width: 200
+                    }
+                ]
+            });
+        });
+
+    </script>
+
+    <script type="text/x-kendo-template" id="tDetails">
+        <div id="cDetails">
+            <input type="hidden" name="id" value="#= id#"/>
+
+            <h4>真实姓名：#= real_name#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;身份证号：#= card_no#</h4>
+
+            <p>昵称：#= nick_name#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;验证状态：#= dict_user_status[status]#</p>
+
+            <p>手机号码：#= phone_number#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱地址：#= email_address#</p>
+
+            <p>
+                身份证图片<span style="font-size: 14px;color: deepskyblue;">(点击放大)</span>
+                <br/>
+            </p>
+
+            <div id="cImages">
+                #= loadImages(id) #
+            </div>
+
+            <p>
+                身份证审核：<input name="identity_valid" id="sIdentity_valid" value="#= identity_valid#"/>
+            </p>
+
+            <p style="text-align: right;">
+                <span style="color:deepskyblue;font-size:16px;" id="cTips_1"></span>
+                <button class="k-button k-primary" onclick="updateModel()">保存</button>
+            </p>
+
+        </div>
+    </script>
+
+    <script>
+        function details_ddl_init() {
+
+            var $sIdentity_valid = $("#sIdentity_valid");
+
+            var $ddlStatus = $sIdentity_valid.kendoDropDownList({
+                dataTextField: "name",
+                dataValueField: "id",
+                autoBind: false,
+                dataSource: convertToList(dict_identity_status)
+            });
+
+            $sIdentity_valid.data("kendoDropDownList").value($sIdentity_valid.val());
+        }
+
+        $(function(){
+            var $sIdentity_valid_f = $("#sIdentity_valid_f");
+
+            $sIdentity_valid_f.kendoDropDownList({
+                dataTextField: "name",
+                dataValueField: "id",
+                autoBind: false,
+                optionLabel:"所有状态",
+                dataSource: convertToList(dict_identity_status)
+            });
+
+        });
+
+    </script>
+</block>
